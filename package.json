@@ -1,0 +1,29 @@
+{
+  "name": "alfred-github-tools",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "zachnthebox/alfred-github-tools",
+  "engines": {
+    "node": ">= 12"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "0.11.1",
+    "global": "4.4.0",
+    "graphql-request": "3.4.0"
+  },
+  "devDependencies": {
+    "alfy-test": "0.4.2",
+    "ava": "3.15.0",
+    "xo": "0.42.0"
+  }
+}
